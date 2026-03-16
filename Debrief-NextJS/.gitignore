@@ -1,0 +1,95 @@
+# === SECRETS & CREDENTIALS (NEVER COMMIT) ===
+*.md
+.env
+.env.*
+!.env.example
+*.env
+secrets/
+secret.json
+credentials.json
+serviceAccountKey.json
+*.json.key
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+*.cer
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.ppk
+token.json
+tokens.json
+refresh_token*
+access_token*
+stripe_keys*
+nextauth_secret*
+private_key*
+# Vercel / deployment secrets
+.vercel
+vercel.json.local
+
+# === NEXT.JS ===
+.next/
+out/
+.cache/
+.swc/
+
+# === NODE ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock.bak
+pnpm-debug.log*
+.pnp/
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# === BUILD OUTPUT ===
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# === TESTING ===
+coverage/
+.coverage
+test-results/
+playwright-report/
+playwright/.cache/
+
+# === LOGS ===
+*.log
+logs/
+log/
+
+# === OS ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# === MISC ===
+*.bak
+*.tmp
+*.orig
+.turbo/
